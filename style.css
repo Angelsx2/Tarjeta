@@ -1,0 +1,96 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+        font-family: Arial, sans-serif;
+    background: linear-gradient(45deg,blue,skyblue);
+    height: 90vh;
+    overflow: hidden;
+}
+header{
+    border-radius: 15px;
+background-color: rgba(185, 185, 185, 0.223);
+width: 40%;
+display: flex;
+font-size: 30px;
+}
+#Noel{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+#chrismas{
+    background: linear-gradient(155deg,red,red,white);
+    color: transparent;
+    background-clip: text;
+    align-content: center;
+}
+main{
+    height: 60vh;
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 3%;
+    margin-bottom: 5%; 
+background: url(/img/001101.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: grid;
+grid-template-columns: repeat(2,2fr);
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-out;
+}
+
+#note{
+    background: linear-gradient(rgb(255, 255, 255),gold);
+    color: transparent;
+    background-clip: text;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s-message{
+    font-size: 130%;
+    background: linear-gradient(rgb(255, 255, 255),gold);
+    color: transparent;
+    background-clip: text;
+    position: sticky;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+}
+#f-message{
+    font-size: 95%;
+    margin: 5%;
+    align-items: center;
+}
+.s-galery{
+    position: sticky;
+    margin: 5%;
+}
+.img-n{
+    width: 60%;
+    height: 100%;
+    margin-left: 20% ;
+    border-radius: 20px;
+    cursor: pointer;
+    transition:  1s ease-in-out;
+}
+.img-n:hover{
+    transform: scale(1.1);
+    transition: opacity 2s ease-in-out;
+}
+.s-meme{
+    margin-left: 40%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+.tenor-gif-embed{
+    width: 150px;
+    height: 40%;
+    left: -50%;
+    margin-top: -20%;
+}
+.img-m{
+    cursor: pointer;
+}
